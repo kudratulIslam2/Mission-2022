@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 5%;
+}
+.h{
+    font-size: 55px;
+}
+.Black{
+    color: cyan;
+}
+.half-width{
+    width: 50%;
+    padding-left: 3.5%;
+}
+.half-width img{
+    width: 60%;
+}
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient(Navy,black);
+    color: white;
+    font-weight: 700;
+    padding: 18px 30px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.flexcontent{
+    display: flex;
+    margin-bottom: 150px;
+}
