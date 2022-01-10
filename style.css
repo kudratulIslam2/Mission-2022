@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{margin: 0;
+padding: 0;}
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 5%;
+    font-family:'Oswald', sans-serif;
+    margin-top: 4%;
 }
 .h{
     font-size: 55px;
@@ -14,17 +18,109 @@ body{
 }
 .half-width img{
     width: 60%;
+    margin-top: 60px;
+    margin-left: 80px;
 }
 .linkbutton{
     text-decoration: none;
-    background-image: linear-gradient(Navy,black);
+    background-image: linear-gradient(#072227,black);
     color: white;
     font-weight: 700;
-    padding: 18px 30px;
-    margin-bottom: 20px;
+    padding: 15px 38px;
+    margin-bottom: 50px;
     border-radius: 7px;
 }
 .flexcontent{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
+}
+.title h1{
+    font-size: 50px;
+    margin: 0px;
+    padding-left: 10px;
+}
+.title{
+    border-left: 4px solid #146356;
+}
+.half-width p{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: candara;
+    font-weight: normal;
+}
+.second-title h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    padding-bottom:35px ;
+}
+.New2022{
+    color: cyan;
+
+}
+.box{
+    box-shadow: 0px 0px 5px 0px #eeeeee5e;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0px 18px;
+}
+.left{
+    background-color: rgba(176, 224, 230, 0.582);
+}
+.middle{
+    background: rgba(255, 192, 203, 0.397);
+}
+.right{
+    background: rgba(128, 128, 128, 0.418);
+}
+.box img{
+    width: 35%;
+}
+.third img{
+    width: 60%;
+    margin-top: 20px;
+}
+.font-size h1{
+    font-size: 40px;
+}
+.font-size h1 span{
+    font-size: 50px;
+}
+.padding-tb{
+    padding: 120px 20px;
+}
+.font-size p{
+    font-family: candara;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.project-img{
+    text-align: right;
+}
+.background{
+    background-image: url(bg3.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: honeydew;
+    font-size: large;
+}
+.background h1{
+    margin-bottom: 70px;
+}
+footer h1, footer p {
+    text-align: center;
+    
+}
+footer{
+    padding: 80px;
+    background-color: rgb(0, 255, 166);
+}
+.paddinglr{
+    margin:0px 70px;
 }
